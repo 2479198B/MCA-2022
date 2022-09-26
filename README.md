@@ -2,6 +2,8 @@
 \[Enter your responses to Week 1, tasks 2 and 3 here\]
 ## Week 1
 
+(150 w)
+
 * Task 2
   * _Identify a theme for your dataset. This will be the central, cohesive strand that will bring your data together. It can be an artist, composer, songwriter, performer, album, larger work (i.e. opera, musical, etc.), time period, genre, archival grouping, etc. You will want to be sure that you can gather all three types of data (musical scores, metadata, and audio recordings) based on your selected theme._
   
@@ -12,9 +14,25 @@
     * albums:
     * genre:
     * time period:
+    
+  ELP covers of classical pieces? Neo-classical things: graphical scores (a problem)
   
+  Vinyl Tap show: from a paper manuscript of episode list, supposedly aired 4/07/2020
   
 * Task 3
   * _Based on your own experience, what do you think are some challenges to working with music and music-related data (perhaps related to access, curation, distribution, etc.)? How does your selected theme display some of these challenges? Describe the current manifestations of data relating to your selected theme, discussing how it is presently curated (collected and gathered) and how it is presented, described, and analysed._
+ * Challenges in access: not standardised and copyright laws
+ * Rights holder companies limit access
+ * Curated around a theme ("Classically Inclined")
+ 
+ How theme displays challenges:
+ * audio is hard to access! Need access to archives. Can access individual tracks.
 
+How it is curated presently:
+ * On a piece of paper!
+ * Does not have metadata other than artist/song/notes
+ * Presented on manuscript
+ * Can perhaps find it online?
+ * Not analysed (just collection of data)
+ * Description: Listener notes on a radio show aired in 2020, with approximate song list.
 
