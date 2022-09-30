@@ -21,7 +21,8 @@ body {
 	width: 33%;
 	border-style: solid;
 	border-width: 3px;
-	color: #0099cc
+	color:	#556C9C;
+
 }
 
 h2 {
@@ -42,7 +43,7 @@ h2 {
 }
 
 .p {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-family: "Verdana";
 	font-weight: 400;
 	font-size: 16px;
