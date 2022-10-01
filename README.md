@@ -7,7 +7,7 @@ Selection of dataset theme: Incomplete playlist of an episode of a radio show (R
 
 Discussion of challenges of working with music data.
 
-Discussion of the currrent manifestations of the data in dataset
+Discussion of the currrent manifestations of the data in dataset.
 
 ### Week 2 ###
 
