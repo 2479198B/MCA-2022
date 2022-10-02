@@ -64,7 +64,7 @@ nav {
 	font-size: 24px;
 }
 
-.navbarli {
+.navbarli {					/* nav bar list, and how links to other site pages are displayed */
 	float: left;
 	background-color: #556C9C
 }
@@ -81,5 +81,24 @@ nav {
 }
 
 pre {
-	color: white;
+	color: black;
+}
+
+li {							/* general lists */
+	color: rgb(0, 0, 0);
+	font-family: "Verdana";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	letter-spacing: 0px;
+}
+
+li a {
+	color:rgb(0, 0, 0);
+	text-decoration: underline;
+}
+
+li a:hover {
+	color:rgb(0, 0, 0);
+	text-decoration: underline;
 }
