@@ -64,19 +64,19 @@ nav {
 	font-size: 24px;
 }
 
-li {
+.navbarli {
 	float: left;
 	background-color: #556C9C
 }
 
-li a {
+.navbarli a {
 	display: block;
 	color: white;
 	padding: 8px 10px;
 	text-decoration: none;
 }
 
-li a:hover {
+.navbarli a:hover {
 	background-color: #35435E;
 }
 
