@@ -7,6 +7,98 @@
 	<link href="week_2.html">
 	<link href="week_3.html">
 	<title>Music Curation and Analytics 2022</title>
+	<style>
+		* {box-sizing: border-box}
+		body {font-family: Verdana, sans-serif; margin:0}
+		.mySlides {display: none}
+		img {vertical-align: middle;}
+		
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1000px;
+		  position: absolute;
+		  margin: auto;
+		}
+		
+		/* Next & previous buttons */
+		.prev, .next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 50%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -22px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 18px;
+		  transition: 0.6s ease;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		}
+		
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+		
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+		  background-color: rgba(0,0,0,0.8);
+		}
+		
+		/* Caption text */
+		.text {
+		  color: #f2f2f2;
+		  font-size: 15px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  bottom: 8px;
+		  width: 100%;
+		  text-align: center;
+		}
+		
+		/* Number text (1/3 etc) */
+		.numbertext {
+		  color: #f2f2f2;
+		  font-size: 12px;
+		  padding: 8px 12px;
+		  position: absolute;
+		  top: 0;
+		}
+		
+		/* The dots/bullets/indicators */
+		.dot {
+		  cursor: pointer;
+		  height: 15px;
+		  width: 15px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 0.6s ease;
+		}
+		
+		.active, .dot:hover {
+		  background-color: #717171;
+		}
+		
+		/* Fading animation */
+		.fade {
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+		
+		@keyframes fade {
+		  from {opacity: .4} 
+		  to {opacity: 1}
+		}
+		
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+		  .prev, .next,.text {font-size: 11px}
+		}
+		</style>
 </head>
 <body>
 	<div id="div1" border-style="solid">
@@ -27,78 +119,39 @@
 <br>
 <div>
 	<h3>Notation</h3>
-		<p class="p">This lab explores how music notation data is represented in a score. Here, we take a pdf file of a musical score and convert it to MuseScore using the software's Optical Music Recognition (OMR) package.<br>
-		I chose to transcribe Bach's "Air" from the <em>Suite No. 3 in D major, BWV 1068</em> as it was discussed on the <em>Vinyl Tap</em> show as an influence on Procol Harum's <em>A Whiter Shade of Pale</em>. In addition, the MusicXML files for this piece were available on IMSLP. The original score is available <a href="scores/Bach_1068_air.pdf">here</a>.</p>
-		<br>
-		<p class="p">Below is the edited MuseScore output, which has been corrected manually.</p>
+		<p class="p">This lab explores how music notation data is represented in a score. Here, we take a pdf file of a musical score and convert it to MuseScore using the software's Optical Music Recognition (OMR) package.</p>
+		<p class="p">I chose to transcribe Bach's "Air" from the <em>Suite No. 3 in D major, BWV 1068</em> as it was discussed on the <em>Vinyl Tap</em> show as an influence on Procol Harum's <em>A Whiter Shade of Pale</em>. In addition, the MusicXML files for this piece were available on IMSLP. The original score is available <a href="scores/Bach_1068_air.pdf">here</a>.</p>
+		<p class="p">Below is the edited MuseScore output, which has been corrected manually. Alternatively, view the <a href="scores/bach_air.mscz">MuseScore file</a> or download the <a href="scores/bach_air.pdf">pdf</a>.</p>
 
-		<!-- Code below taken from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
-		<!-- Slideshow container -->
-<div class="slideshow-container">
-
-	<!-- Full-width images with number and caption text -->
-	<div class="mySlides fade">
-	  <div class="numbertext">1 / 2</div>
-	  <img src="images/bach_air1024_1.png" style="width:60%">
-	  <div class="text">Caption Text</div>
-	</div>
-  
-	<div class="mySlides fade">
-	  <div class="numbertext">2 / 2</div>
-	  <img src="images/bach_air1024_2.png" style="width:60%">
-	  <div class="text">Caption Two</div>
-	</div>
-
-  
-	<!-- Next and previous buttons -->
-	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-  </div>
-
-  <script>
-	let slideIndex = 1;
-	showSlides(slideIndex);
-	
-	function plusSlides(n) {
-	  showSlides(slideIndex += n);
-	}
-	
-	function currentSlide(n) {
-	  showSlides(slideIndex = n);
-	}
-	
-	function showSlides(n) {
-	  let i;
-	  let slides = document.getElementsByClassName("mySlides");
-	  let dots = document.getElementsByClassName("dot");
-	  if (n > slides.length) {slideIndex = 1}    
-	  if (n < 1) {slideIndex = slides.length}
-	  for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";  
-	  }
-	  for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
-	  }
-	  slides[slideIndex-1].style.display = "block";  
-	  dots[slideIndex-1].className += " active";
-	}
-	</script>
+		<table id="week2_table"; style="width:70%">
+			<tr>
+			  <td><img src="images/bach_air1024_1.png", class="week_2"></td>
+			  <td><img src="images/bach_air1024_2.png", class="week_2"></td>
+			</tr>
+		</table>
 		
 
+		<p class="p">For comparison, <a href="scores/bach_air_unedited.pdf">this</a> is the unedited MuseScore output.<br></p>
+		<h4>Results</h4>
+		<p class="p">The conversion from pdf to MuseScore file keeps most of the structure of the score (parts) and most pitches, but some note and timing information (rhythm and keeping to time signature) are lost. Compare for example mm 8 in both scores, and the Violin II part in mm 14, where the accidental is interpreted as an additional note. (This would be impossible to play.) Other information is extracted inconsistently, such as ties and slurs. In mm 8-9, the ties in both violin parts are kept, but in mm 14-15 the viola part is missing some of its tie notes. Even inside a part some ties are extracted inconsistently.</p>
+		<p class="p">For playback of a piece, the most important, top-level information is that of score structure, pitch, and rhythm. While the MuseScore conversion clearly is not a perfect transcription, it nevertheless succeeds in extracting most of this data.</p>
+
+		<h4>Encoding in MusicXML</h4>
+
+		<p class="p">The OMR package loses score information. I wanted to see, in comparison, how much information could be retrieved when the score is encoded in a different format than an image.</p>
+		<p class="p">The score is available on IMSLP as a <em>folder</em> of MusicXML files. Each part in the score is described separately. For example, the Violin I file for the <em>Air</em> contains the layout description for all parts and the Violin I notation data, but the other parts, while they do appear, are left blank. To produce a score from these files, I chose to use Lilypond for the engraving (it is very pretty). Lilypond however expects a single xml file per score. From the five MusicXML files describing the piece, I manually selected the xml tags and notation data that Lilypond needed and placed them into a <a href="scores/test1.xml">test xml file</a>. Then, I converted it to Lilypond format and generated <a href="scores/lilypond_output_test1.pdf">this</a>.</p>
+		<p class="p">RESULTS HERE</p>
+	
+
+
+<!--
 		<ul>
-			<li class="bodylist">the <a href="scores/bach_air_unedited.pdf">unedited MuseScore output</a>, obtained using the software's Optical Music Recognition package;</li>
-			<li class="bodylist">the <a href="scores/bach_air.pdf">edited MuseScore output</a>, corrected by hand;</li>
 			<li class="bodylist">the <a href="scores/lilypond_output_test1.pdf">Lilypond output</a>, obtained from a <a href="scores/test1.xml">MusicXML file</a> (edited by hand). This file contains the xml tags and notation data necessary to generate the Lilypond output, and the data it contains has been selected from the MusicXML engraving files available on IMSLP.</li>
 		</ul>
+
+	-->
 		<br>
-		<p class="p">Here, comment on results.</p>
+		
 		<pre>mm 3 Viola: is the D tied? + articulation D-E
 			formatting of repeat signs mm6
 			mm 9 lilypond B.C. missed D natural in the xml files

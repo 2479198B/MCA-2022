@@ -10,8 +10,13 @@ Discussion of challenges of working with music data.
 Discussion of the currrent manifestations of the data in dataset.
 
 ### Week 2 ###
+Importing pdf score into MuseScore using OMR. Correcting the score manually.
 
+Discussion of merits and points of failures of OMR transcription.
 
+Encoding in MusicXML and Lilypond conversion.
+
+The score images may not display nicely on different display sizes as their width is fixed. Sorry, it was too difficult to implement a slideshow.
 
 ### Week 3 ###
 
