@@ -76,8 +76,9 @@ h4 {
 }
 
 nav {
-	display: block;
+	display: inline-block;
 	position: absolute;
+	margin: auto;
 }
 
 #Menu {
@@ -91,7 +92,7 @@ nav {
 
 .navbarli {					/* nav bar list, and how links to other site pages are displayed */
 	float: left;
-	background-color: #556C9C
+	background-color: #556C9C;
 }
 
 .navbarli a {
