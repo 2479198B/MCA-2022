@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
@@ -870,7 +870,7 @@
                   <measure xml:id="mi6m90" n="13">
                      <staff xml:id="s1va3se6" n="1">
                         <layer xml:id="l1xv0c8e" n="1">
-                           <note xml:id="nuar84d" dur.ppq="0" dur="8" oct="5" pname="f" grace="unacc" stem.dir="up" stem.mod="1slash" accid.ges="s" />
+                           <note xml:id="nuar84d" dur.ppq="0" dur="8" oct="5" pname="f" grace="acc" stem.dir="up" stem.mod="1slash" accid.ges="s" />
                            <beam xml:id="bh8m4cu">
                               <note xml:id="n1pl436" dur.ppq="120" dur="16" oct="5" pname="e" />
                               <note xml:id="nwr4qb0" dur.ppq="120" dur="16" oct="5" pname="a" />
