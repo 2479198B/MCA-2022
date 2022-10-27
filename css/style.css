@@ -157,6 +157,16 @@ a {
 	text-decoration: underline;
 }
 
+code {
+	font-family: Consolas,"courier new";
+	padding: 2px;
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+	font-size: 20px;
+	text-align: justify;
+	letter-spacing: 0px;
+  }
+
 
 
 
