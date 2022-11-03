@@ -19,6 +19,9 @@ Encoding in MusicXML and Lilypond conversion.
 The score images may not display nicely on different display sizes as their width is fixed. Sorry, it was too difficult to implement a slideshow.
 
 ### Week 3 ###
+Render of MEI file using Verovio
+
+Comparison of MusicXML and MEI
 
 ### Week 4 ###
 
