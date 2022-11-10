@@ -12,21 +12,26 @@ Duration: 04:27
 Year: 1947
 Size: 5.67 MB
 
+https://archive.org/details/J.S.BachOrchestralSuiteNo.3InDMajor/05.V.Gigue.mp3
+
 
 
 Title
-Artist
-Composer
+Artist: New York Philharmonic Orchestra, Dimitri Mitropoulos, conductor
+Composer: Prokofiev
 Copyright info (if any)
 Genre
 Source
 File/audio format
 Number of channels
 Sample rate
-Bits per second
+Bits per second: 150k
 Duration
 Year: 1956
 Size:
+
+https://archive.org/details/PROKOFIEVLieutenantKijeSuite-Mitropoulos
+
 
 Title: Russians
 Artist: Sting
@@ -41,3 +46,5 @@ Bits per second
 Duration
 Year:
 Size:
+
+https://archive.org/details/Sting_Russians
