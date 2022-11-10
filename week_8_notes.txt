@@ -3,48 +3,55 @@ Artist: Boston Symphony Orchestra, Serge Koussevitzky, conductor
 Composer: J. S. Bach
 Copyright info (if any):   Attribution-Noncommercial-Share Alike 3.0
 Genre: Classical
-Source: Victor 78rpm Album DM 1123, Digital transfer by F. Reeder
+Source: Victor 78rpm Album DM 1123, Digital transfer by F. Reeder https://archive.org/details/J.S.BachOrchestralSuiteNo.3InDMajor/02.Ii.Air.mp3
 File/audio format: mp3
 Number of channels: 2
-Sample rate: 44100Hz
+Sample rate: 44100 Hz
 Bits per second: 177k 
 Duration: 04:27
 Year: 1947
 Size: 5.67 MB
 
-https://archive.org/details/J.S.BachOrchestralSuiteNo.3InDMajor/05.V.Gigue.mp3
 
 
 
-Title
+Title: Lieutenant Kijé Suite, Op. 60, II. Romance (Andante)
 Artist: New York Philharmonic Orchestra, Dimitri Mitropoulos, conductor
-Composer: Prokofiev
-Copyright info (if any)
-Genre
-Source
-File/audio format
-Number of channels
-Sample rate
+Composer: Sergei Prokofiev
+Copyright info (if any):  Attribution-Noncommercial-No Derivative Works 3.0
+Genre: Classical
+Source: Columbia ML 5101 (x "Lp" 37765), Digital transfer by F. Reeder https://archive.org/details/PROKOFIEVLieutenantKijeSuite-Mitropoulos/02.+II.+Romance+(Andante).mp3
+File/audio format: mp3
+Number of channels: 2
+Sample rate: 44100 Hz
 Bits per second: 150k
-Duration
+Duration: 04:37
 Year: 1956
-Size:
+Size: 4.97 MB
 
-https://archive.org/details/PROKOFIEVLieutenantKijeSuite-Mitropoulos
+
 
 
 Title: Russians
 Artist: Sting
-Composer
-Copyright info (if any): Attribution-Noncommercial-No Derivative Works 3.0
-Genre
-Source
-File/audio format
-Number of channels
-Sample rate
-Bits per second
-Duration
-Year:
-Size:
+Composer: Sergei Prokofiev and Sting
+Copyright info (if any):
+Genre: Rock
+Source: https://archive.org/details/Sting_Russians
+File/audio format: mp4
+Number of channels: 2
+Sample rate: 44100 Hz
+Bits per second: 129k
+Duration: 03:59
+Year: 1985
+Size: 23.6 MB
+
+Video info:
+Frame width: 640
+Frame height: 480
+Data rate: 697kbps
+Total bitrate: 826kbps
+Frame rate: 25fps
+
 
 https://archive.org/details/Sting_Russians
