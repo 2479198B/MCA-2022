@@ -55,3 +55,14 @@ Frame rate: 25fps
 
 
 https://archive.org/details/Sting_Russians
+
+
+describe at least one advantage of a time-frequency analysis over a waveform-based analysis. Provide at least one example of the identified advantage by referencing a specific subpart of the output from step 1.
+
+
+can determine frequencies, cutoff freq if audio has been downsampled, 
+
+Russians: high freqs have pretty obviously been chopped off.
+Can see where the vocals come in.
+Middle part: can see individual notes
+Pauses.
