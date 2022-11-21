@@ -200,14 +200,28 @@ code {
   	height: auto;
 }
 
-  #week8_table{
+  .week8_table{
 	margin-left: auto;
 	margin-right: auto;
 	color: rgb(219, 236, 195)
 }
 
+#spectrograms {
 
+	font-family: "Verdana";
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0px;
+	width: 60%; 
+	margin-left: auto;
+	margin-right: auto;
+}
 
+img.week_8 {
+	width: 100%;
+  	height: auto;
+}
 
 
 
