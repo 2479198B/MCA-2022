@@ -138,6 +138,7 @@ img.week_2 {
 #week2_table{
 	margin-left: auto;
 	margin-right: auto;
+	color: rgb(219, 236, 195)
 }
 /*
 li a {
@@ -199,7 +200,7 @@ code {
   #week8_table{
 	margin-left: auto;
 	margin-right: auto;
-	border-style: none;
+	color: rgb(219, 236, 195)
 }
 
 
