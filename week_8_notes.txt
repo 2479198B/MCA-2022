@@ -66,3 +66,9 @@ Russians: high freqs have pretty obviously been chopped off.
 Can see where the vocals come in.
 Middle part: can see individual notes
 Pauses.
+
+Waveform analysis of an entire song gives only information about the volume over time. With time-frequency analysis, we can visualise the frequencies and overtones present in the audio. 
+For example, in the spectrogram below, we can follow the shape of the melody over time. 
+An advantage of time-frequency analysis is that we can determine when the audio has been down- or up-sampled by looking at the shape of the spectrum at high frequencies. For audio with lots of frequency interactions (ie. a dense track that covers a full frequency range), the spectrum will show high frequencies. Often, for a track with less interactions, the spectrum will appear to fade at high frequencies, as with Romance. 
+
+Comparing this spectrum with Sting's Russians, a more dense track, we see that the spectrum for Russians appears more "blocky" (the peaks don't fade at high frequencies). We can infer that the high frequencies have been chopped off (filtered out) when the audio file was generated, that is, the original track has been downsampled. 

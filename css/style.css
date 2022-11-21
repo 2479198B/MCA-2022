@@ -191,7 +191,16 @@ code {
 	font-weight: bold;
   }
 
+  img.week_8 {
+	width: 100%;
+  	height: auto;
+}
 
+  #week8_table{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: none;
+}
 
 
 
