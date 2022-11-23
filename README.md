@@ -30,7 +30,18 @@ Comparison of MusicXML and MEI
 ### Week 7 ###
 
 ### Week 8 ###
+Lists metadata from three tracks in dataset, sourced from the Internet Archive
+
+Generating spectrograms in Sonic Visualiser
+
+Discussion of advantages of time-frequency analysis
 
 ### Week 9 ###
+
+Generating MFCCs and chromagrams in Sonic Visualiser
+
+Producing histograms of MFCC features and chromagram pitch classes in Python notebook
+
+Comparison on MFCC histograms for the three tracks
 
 ### Week 10 ###
