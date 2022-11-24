@@ -42,6 +42,7 @@ Generating MFCCs and chromagrams in Sonic Visualiser
 
 Producing histograms of MFCC features and chromagram pitch classes in Python notebook
 
-Comparison on MFCC histograms for the three tracks
+Comparison of MFCC histograms for the three tracks
 
 ### Week 10 ###
+
