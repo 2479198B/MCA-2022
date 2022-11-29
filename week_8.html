@@ -46,16 +46,17 @@
 		
 		<table style="width: 60%; margin-left: auto; margin-right: auto;">
 			<colgroup>
-				<col span="1" style="width: 25%;">
-				<col span="1" style="width: 25%;">
-				<col span="1" style="width: 25%;">
-				<col span="1" style="width: 25%;">
+				<col span="1" style="width: 20%;">
+				<col span="1" style="width: 26.66%;">
+				<col span="1" style="width: 26.66%;">
+				<col span="1" style="width: 26.66%;">
 			 </colgroup>
+			 <tbody>
 			<tr>
 				<th></th>
-				<th>Bach Air 1068</th>
-				<th>Lieutenant Kijé Suite, Romance</th>
-				<th>Russians</th>
+				<th class="th">Bach Air 1068</th>
+				<th class="th">Lieutenant Kijé Suite, Romance</th>
+				<th class="th">Russians</th>
 			</tr>
 			<tr>
 			  	<td>Title</td>
@@ -172,23 +173,18 @@
 				<td>25fps</td>
 		  	</tr>
 			
-
+			</tbody>
 		  </table>
 		
 	<h4>Audio analysis using Sonic Visualiser</h4>
 
 		<p class="p">Below are the spectrograms for each track made with Sonic Visualiser.</p>
 
-		<table class="table_table"; style="width:70%">
-			<colgroup>
-				<col style="width: 33%" />
-				<col style="width: 33%" />
-				<col style="width: 33%" />    <!-- make all columns same width! -->
-			</colgroup>
+		<table class="three_el">
 			<tr>
-			  <td><img src="images/spectrogram_bach_air.png", class="week_8"></td>
-			  <td><img src="images/spectrogram_romance.png", class="week_8"></td>
-			  <td><img src="images/spectrogram_russians.png", class="week_8"></td>
+			  <th width="33%"><img src="images/spectrogram_bach_air.png", class="week_8"></td>
+			  <th width="33%"><img src="images/spectrogram_romance.png", class="week_8"></td>
+			  <th width="33%"><img src="images/spectrogram_russians.png", class="week_8"></td>
 			</tr>
 			<tr>
 				<td>Air from BWV 1068, Bach</td>
@@ -198,21 +194,13 @@
 		</table>
 
 		<p class="p">Waveform analysis of an entire song gives only information about the volume over time. With time-frequency analysis, we can visualise the frequencies and overtones present in the audio. For example, in the spectrogram snapshot below, from <em>Russians</em>, we can follow the shape of the melody over time. </p>
-		<table class="week8_table"; style="width:50%">
-			<tr>
-			  <td><img src="images/melody_russians.JPG", class="week_8"></td>
-			</tr>
-		</table>
+		<img src="images/melody_russians.JPG", class="week_8" title="Snapshot of Russians 1">
 
 		<p class="p">An advantage of time-frequency analysis is that we can determine when the audio has been down- or up-sampled by looking at the shape of the spectrum at high frequencies. For audio with lots of frequency interactions (ie. a dense track that covers a full frequency range), the spectrum will show high frequencies. Often, for a track with less interactions, the spectrum will appear to fade at high frequencies, as with Romance. </p>
 
-		<p class="p">Comparing this spectrum with Sting's Russians, a more dense track, we see that the spectrum for Russians appears more "blocky" (the peaks don't fade at high frequencies). We can infer that the high frequencies have been chopped off (filtered out) when the audio file was generated, that is, the original track has been downsampled. </p>
+		<p class="p">Comparing this spectrum with Sting's <em>Russians</em>, a more dense track, we see that the spectrum for <em>Russians</em> appears more "blocky" (the peaks don't fade at high frequencies). We can infer that the high frequencies have been chopped off (filtered out) when the audio file was generated, that is, the original track has been downsampled. </p>
 
-		<table class="week8_table"; style="width:50%">
-			<tr>
-			  <td><img src="images/chop_russians.JPG", class="week_8"></td>
-			</tr>
-		</table>
+		<img src="images/chop_russians.JPG", class="week_8" title="Snapshot of Russians 2">
 
 
 

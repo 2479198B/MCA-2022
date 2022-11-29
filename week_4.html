@@ -64,13 +64,36 @@
 		
 	<h4>Piano Roll and Pitch Histogram</h4>
 
-	<p class="p">scatter plot; pitch histogram shows that B, A and E and D are the most common pitches for this piece in D+; piano roll clearly shows the violin 1 part (melody) for the entire piece. We can easily identify some notes based on their length, eg the first long F#, the final D, the short trills, as well as some cadences (imperfect mm 7-8), final perfect cadence. etc. Chord analysis xml version, chordified xml version, both pdf versions. (via lilypond). </p>
+	<p class="p">The Music21 python package allows us to do further analyses and to visualise the music data. The source file for the following is <a href="scores/test1.xml">test1.xml</a>. Below is a scatter plot of the pitches and pitch durations present in Bach's <em>Air</em>.</p>
 
-	<img src="images/scatter.png", class="week_8">
-<br>
-	<img src="images/pitch_histogram.png"; class="week_8">
-<br>
-	<img src="images/piano_roll_violin1.png"; class="week_8">
+	<figure>
+	<img src="images/scatter.png" class="week_8" title="scatter">
+	<figcaption class="caption">Scatter Plot of Pitches in Bach's Air in D+</figcaption>
+	</figure>
+	<br>
+
+	<p class="p">The pitch histogram below shows that B, A and E and D are the most common pitches for this piece in D major. This is consistent with the jSymbolic analysis which finds midi note 71 (B) as the most common pitch. </p>
+
+	<figure>
+	<img src="images/pitch_histogram.png" class="week_8" title="Air in D+ Pitch Histogram">
+	<figcaption class="caption">Air in D+ Pitch Histogram</figcaption>
+	</figure>
+	<br>
+
+	<p class="p">The piano roll shows the violin 1 part (melody) for the entire piece clearly. We can easily identify some notes based on their length, eg. the first extended F#, the final D, the short trills, as well as some cadences (imperfect mm 7-8, final perfect cadence).</p>
+
+	<figure>
+	<img src="images/piano_roll_violin1.png" class="week_8" title ="Violin 1 Piano Roll">
+	<figcaption class="caption">Air in D+ Piano Roll</figcaption>
+	</figure>
+	<br>
+
+	<p class="p">Music21 can also collapse a score into chords. Below (or <a href="scores/chords.pdf">here</a>) is a chordified version of the first part of the score. An attempted automatic analysis (that seems to assume the piece starts in F# minor, modulates, and never goes to a tonic key) can be found <a href="scores/ChordAnalysis.pdf">here</a>. This shows the current challenges of automating musical analysis.</p>
+
+	<figure>
+	<img src="images/chords.JPG" class="week_8" title ="chords">
+	<figcaption class="caption">Chordified Air in D+</figcaption>
+	</figure>
 		
 </div>
 
