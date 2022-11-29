@@ -204,8 +204,11 @@ code {
   }
 
   img.week_8 {
-	width: 100%;
+	width: 60%;
   	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
 }
 
   .week8_table{
