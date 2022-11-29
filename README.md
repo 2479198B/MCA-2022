@@ -24,6 +24,11 @@ Render of MEI file using Verovio
 Comparison of MusicXML and MEI
 
 ### Week 4 ###
+Analysis of musical features using jSymbolic
+
+Further analysis using music21 Python package
+
+Discussion of piano roll and pitch histogram results
 
 ### Week 5 ###
 
@@ -37,7 +42,6 @@ Generating spectrograms in Sonic Visualiser
 Discussion of advantages of time-frequency analysis
 
 ### Week 9 ###
-
 Generating MFCCs and chromagrams in Sonic Visualiser
 
 Producing histograms of MFCC features and chromagram pitch classes in Python notebook
@@ -45,4 +49,6 @@ Producing histograms of MFCC features and chromagram pitch classes in Python not
 Comparison of MFCC histograms for the three tracks
 
 ### Week 10 ###
+Generating Similarity Matrix for chromagram pitch classes in Python notebook
 
+Automatic Transcription using Sonic Visualiser
