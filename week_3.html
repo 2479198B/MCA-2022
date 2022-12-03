@@ -92,18 +92,17 @@
 		});
 </script>
 
-<h4>Encoding in MusicXML</h4>
+<h4>Encoding in MusicXML and MEI</h4>
 	<p class="p">In MusicXML, pitch information is collected in a <code>&lt;pitch&gt;</code> tag. This contains <code>&lt;step&gt;</code> for the note name, <code>&lt;octave&gt;</code> to specify the octave and an optional <code>&lt;alter&gt;</code> for accidentals. For example, <code>&lt;alter&gt;-1&lt;/alter&gt</code> indicates that the note described is a flat.</p>
 	<p class="p">Much like traditional notation, rhythm is shown at the note level. The <code>&lt;type&gt;</code> tag encodes the note type (half, quarter, sixteenth etc.) Time is shown by the <code>&lt;duration&gt;</code> tag; for all the ratios between each note type, there is a corresponding ratio in the note durations. A quarter note in the musicXML file used has a duration of 480 "division units".</p>
 	<p class="p">MusicXML lacks the ability to encode metadata. It is difficult to include references or to attribute the score to a source other than by adding these as text. An advantage of the format is that it is designed to be compatible with different software, making it useful for going between software types. As such, it can be used alongside other software to extract and manipulate music data. Some weaknesses include the difficulty of editing the data directly, since changes cannot be viewed immediately, and the large file size.</p>
-
-<h4>Encoding in MEI</h4>
-		<p class="p">In MEI, pitch is represented by the attributes <code>pname</code> and <code>oct</code> of the <code>&lt;note&gt;</code> tag. These refer to the common note name and its octave. Rhythm is shown by how many notes (if any) are contained in a <code>&lt;beam&gt;</code> tag, as well as the duration attribute in the note. Time ...</p>
-		<p class="p">excluded data</p>
-		<p class="p">strengths/weaknesses</p>
+	<p class="p">In MEI, pitch is represented by the attributes <code>pname</code> and <code>oct</code> of the <code>&lt;note&gt;</code> tag. These refer to the common note name and its octave. Rhythm is shown by how many notes (if any) are contained in a <code>&lt;beam&gt;</code> tag, as well as the duration attribute in the note. Time is similarly shown by the duration attribute.</p>
 		
-		<p class="p">Compare 3 MusicXML and MEI elements</p>
-		<p class="p">Implications of differences</p>
+<h4>Comparison of MusicXML and MEI Elements</h4>
+	<p class="p">The structure of MusicXMl and MEI files are different: the high-level, or base element in MusicXML is a <code>&lt;part&gt;</code> or a <code>&lt;measure&gt;</code>, while for MEI it is a <code>&lt;staffGrp&gt;</code>. For each file format, the high-level element contains the rest of the music data. One implication of this is that in MusicXML, the music is described block-by-block with no reference to subsequent elements, while in MEI, the staff group, which contains measures, is defined for the entire score. In addition to this, MEI has individual <code>&lt;staff&gt;</code> tags for each part in each measure.</p>
+	<p class="p">As described above, the <code>&lt;note&gt;</code> tags differ; in MEI a note contains pitch, duration, octave information as attributes, as well as an id (unique to the element). MusicXML notes are tags that enclose other <code>&lt;pitch&gt;</code>, <code>&lt;octave&gt;</code>, note <code>&lt;type&gt;</code> tags, and notes cannot be referenced uniquely. This makes MEI notes easier to locate in software and hence easier to edit directly. With unique addressing, MEI notes can be thought of as "in-relation" to one another in a score, while MusicXML notes are isolated blocks without addresses.</p>
+	<p class ="p">Likewise, slurs in MusicXML are generated as visual blocks with their position and type (start/stop) defined as attributes in the <code>&lt;slur&gt;</code> tag, while in MEI each is addressed directly and includes a start and stop id of the note it describes.</p>
+
 		
 
 
