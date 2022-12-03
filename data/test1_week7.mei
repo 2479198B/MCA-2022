@@ -12,21 +12,37 @@
                	<name>Sophie Barcan</name>
             </respStmt>
          </titleStmt>
+         
          <editionStmt>
             <edition>
             	<title xml:id="zzzzzzzz" auth.uri="https://lccn.loc.gov/85750759" auth="Library of Congress">Air in D Major</title>
             	<respStmt>
-              	 <resp>Source</resp>
-               	<name>IMSLP https://imslp.org/wiki/Special:ReverseLookup/254645</name>
-           	 </respStmt>
+              	 	<resp>Source</resp>
+               		<name>IMSLP https://imslp.org/wiki/Special:ReverseLookup/254645</name>
+           	 	</respStmt>
             </edition>
          </editionStmt>
+         
          <extent unit="kB">94.8</extent>
+         
          <pubStmt>
             <publisher>Sophie Barcan</publisher>
             <date type="encoding-year">2022</date>
+            <availability>
+                <useRestrict auth.uri="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</useRestrict>
+            </availability>
             
          </pubStmt>
+         <seriesStmt>
+            <head>
+                <annot>This piece is part of a dataset for Music Curation and Analytics. The theme of the dataset is an episode from a radio show, Randy's Vinyl Tap.</annot>
+            </head>
+            <title>Classically Inclined from Randy's Vinyl Tap</title>
+            <respStmt>
+                <resp>Hosted by</resp>
+               	<name>Randy Bachman</name>
+            </respStmt>
+         </seriesStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-1umz1w1">
          <appInfo xml:id="appinfo-9j8020">
@@ -37,6 +53,11 @@
          </appInfo>
       </encodingDesc>
       <workList>
+         <head>
+             <bibl>
+                <genre>Classical</genre>
+            </bibl>
+         </head>
          <work>
             <title xml:id="aaaaaaaa">Air in D Major</title>
             <composer xml:id="hhhhhhhh">Johann Sebastian Bach</composer>

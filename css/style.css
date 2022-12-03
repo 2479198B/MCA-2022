@@ -127,7 +127,7 @@ li {							/* general lists */
 	width: 60%;
 }
 
-li.bodylist {							/* general lists */
+.bodylist {							/* general lists */
 	color: rgb(0, 0, 0);
 	font-family: "Verdana";
 	font-weight: 400;
