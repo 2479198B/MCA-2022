@@ -1813,16 +1813,29 @@ mei-title[type="subordinate"] {
 } */
 
 mei-filedesc > mei-titlestmt > mei-title {
-  color: #595b66;
+  color: black;
   display: block;
   font-size: 24pt;
+	font-family: "Verdana";
+	font-weight: bold;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-titlestmt > mei-respstmt {
   font-weight: bold;
-  content: "ENcoded by: ";
+  content: "Encoded by: ";
   display: block;
-  margin-top: 1em;
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
@@ -1839,7 +1852,7 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 }
 
 mei-filedesc > mei-pubstmt > mei-respstmt {
-  display: none;
+  display: block;
 }
 
 mei-pubstmt > mei-address {
@@ -1849,6 +1862,15 @@ mei-pubstmt > mei-address {
 mei-filedesc > mei-pubstmt > mei-date::before {
   font-weight: bold;
   content: "Date encoded: "
+  display: block;
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
@@ -1868,7 +1890,7 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
 }
 
 mei-seriesstmt {
-  display: none;
+  display: block;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
@@ -1882,10 +1904,25 @@ mei-filedesc > mei-sourcedesc > mei-source > mei-identifier {
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt::before {
   font-weight: bold;
   content: "Source: ";
+  display: block;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt {
   display: block;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::before {
@@ -1901,7 +1938,14 @@ mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uni
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="composer"] {
-  display: none;
+  display: block;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="dedicatee"]::before {
@@ -1914,6 +1958,13 @@ mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-
   font-weight: bold;
   content: '\a'"Edited by: ";
   white-space: pre;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-physdesc {
