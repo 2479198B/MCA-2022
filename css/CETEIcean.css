@@ -1805,11 +1805,12 @@ tei-zone {
   /* Empty Rule Set */
 }
 
+/*
 mei-title[type="subordinate"] {
   font-size: 18pt;
   font-variant-caps: small-caps;
   margin-top: -0.5em;
-}
+} */
 
 mei-filedesc > mei-titlestmt > mei-title {
   color: #595b66;
@@ -1818,6 +1819,8 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 mei-filedesc > mei-titlestmt > mei-respstmt {
+  font-weight: bold;
+  content: "ENcoded by: ";
   display: block;
   margin-top: 1em;
 }
