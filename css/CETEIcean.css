@@ -1827,11 +1827,11 @@ mei-filedesc > mei-titlestmt > mei-title {
 mei-filedesc > mei-titlestmt > mei-respstmt {
   font-weight: normal;
   content: "Encoded by: ";
-  display: block;
   color: black;
   display: block;
   font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1839,14 +1839,14 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
-  font-weight: bold;
   content: "Composer: ";
   white-space: pre;
   margin-top: 2em;
-  display: block;
   color: black;
-  font-size: 18pt;
+  display: block;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1854,14 +1854,14 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::befo
 }
 
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::before {
-  font-weight: bold;
   content: '\a'"Encoded by: ";
   white-space: pre;
   margin-top: 2em;
-  display: block;
   color: black;
-  font-size: 18pt;
+  display: block;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1871,9 +1871,11 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 mei-filedesc > mei-pubstmt > mei-respstmt {
   display: block;
   margin-top: 2em;
+  margin-top: 2em;
   color: black;
-  font-size: 18pt;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1885,12 +1887,13 @@ mei-pubstmt > mei-address {
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
-  font-weight: bold;
   content: "Date encoded: ";
+  margin-top: 2em;
   color: black;
   display: block;
-  font-size: 18pt;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1901,10 +1904,12 @@ mei-filedesc > mei-pubstmt > mei-date::after {
   content: '\a \a';
   white-space: pre;
   margin-top: 2em;
-  display: block;
+  margin-top: 2em;
   color: black;
-  font-size: 18pt;
+  display: block;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1943,8 +1948,9 @@ mei-seriesstmt {
   display: block;
   margin-top: 2em;
   color: black;
-  font-size: 18pt;
+  font-size: 20pt;
 	font-family: "Verdana";
+	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -2051,6 +2057,16 @@ mei-pubplace::before {
 mei-filedesc > mei-sourcedesc > mei-source > mei-pubstmt::after {
   content: '\a''\a';
   white-space: pre;
+  margin-top: 2em;
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-encodingdesc {
@@ -2058,7 +2074,7 @@ mei-encodingdesc {
 }
 
 mei-workdesc {
-  display: none;
+  display: block;
 }
 
 mei-revisiondesc {
