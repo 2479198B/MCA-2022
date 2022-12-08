@@ -214,7 +214,7 @@ code {
 	font-weight: bold;
   }*/
 
-.week_8 {
+.week_8 { /* img class */
 	width: 40%;
   	height: auto;
 	margin-right: auto;
@@ -222,11 +222,11 @@ code {
 	display: block;
 }
 
-.week8_table{
+/*.week8_table{
 	margin-left: auto;
 	margin-right: auto;
 	color: rgb(219, 236, 195)
-}
+}*/
 
 #spectrograms {
 
@@ -242,6 +242,9 @@ code {
 
  .three_el {  
 	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	
 	
 }
 
