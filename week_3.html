@@ -102,6 +102,7 @@
 	<p class="p">The structure of MusicXMl and MEI files are different: the high-level, or base element in MusicXML is a <code>&lt;part&gt;</code> or a <code>&lt;measure&gt;</code>, while for MEI it is a <code>&lt;staffGrp&gt;</code>. For each file format, the high-level element contains the rest of the music data. One implication of this is that in MusicXML, the music is described block-by-block with no reference to subsequent elements, while in MEI, the staff group, which contains measures, is defined for the entire score. In addition to this, MEI has individual <code>&lt;staff&gt;</code> tags for each part in each measure.</p>
 	<p class="p">As described above, the <code>&lt;note&gt;</code> tags differ; in MEI a note contains pitch, duration, octave information as attributes, as well as an id (unique to the element). MusicXML notes are tags that enclose other <code>&lt;pitch&gt;</code>, <code>&lt;octave&gt;</code>, note <code>&lt;type&gt;</code> tags, and notes cannot be referenced uniquely. This makes MEI notes easier to locate in software and hence easier to edit directly. With unique addressing, MEI notes can be thought of as "in-relation" to one another in a score, while MusicXML notes are isolated blocks without addresses.</p>
 	<p class ="p">Likewise, slurs in MusicXML are generated as visual blocks with their position and type (start/stop) defined as attributes in the <code>&lt;slur&gt;</code> tag, while in MEI each is addressed directly and includes a start and stop id of the note it describes.</p>
+	<br>
 
 		
 
