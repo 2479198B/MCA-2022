@@ -1911,7 +1911,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-title {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
-  display: block;
+  display: inline-block;
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1920,7 +1920,6 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 	letter-spacing: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-  margin-top: 2em;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
@@ -1935,19 +1934,6 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-extent > mei-unit {
-  display: block;
-  font-style: normal;
-  color: black;
-  font-size: 18pt;
-	font-family: "Verdana";
-	text-align: justify;
-	letter-spacing: 0px;
-	margin-left: 20%;
-	margin-right: 20%;
-  margin-top: 2em;
-}
-
 mei-filedesc > mei-editionstmt > mei-edition > mei-extent > mei-extent {
   display: block;
   font-style: normal;
@@ -1958,7 +1944,6 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-extent > mei-extent {
 	letter-spacing: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-  margin-top: 2em;
 }
 
 mei-pubstmt > mei-address {
@@ -1975,11 +1960,11 @@ mei-filedesc > mei-pubstmt > mei-date {
 	letter-spacing: 0px;
 }
 
-/*mei-filedesc > mei-pubstmt > mei-date::before {
+mei-filedesc > mei-pubstmt > mei-date::before {
   content: "Date encoded: ";
   margin-top: 2em;
   color: black;
-  display: block;
+  display: inline-block;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
@@ -1987,11 +1972,11 @@ mei-filedesc > mei-pubstmt > mei-date {
 	letter-spacing: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-}*/
+}
 
 mei-filedesc > mei-pubstmt > mei-date::after {
   content: '\a \a';
-  white-space: pre;
+  /*white-space: pre;*/
   margin-top: 2em;
   margin-top: 2em;
   color: black;
