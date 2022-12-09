@@ -1815,9 +1815,9 @@ mei-title[type="subordinate"] {
 mei-filedesc > mei-titlestmt > mei-title {
   color: black;
   display: inline-block;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
-	font-weight: normal;
+	font-weight: bold;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -1826,10 +1826,9 @@ mei-filedesc > mei-titlestmt > mei-title {
 
 mei-filedesc > mei-titlestmt > mei-composer {
   /*content: "Composer: ";*/
-  margin-top: 2em;
   color: black;
   display: inline-block;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
 	font-weight: normal;
 	text-align: justify;
@@ -1839,11 +1838,12 @@ mei-filedesc > mei-titlestmt > mei-composer {
 }
 
 mei-filedesc > mei-titlestmt > mei-respstmt {
+  margin-top: 2em;
   font-weight: normal;
   content: "Encoded by: ";
   color: black;
   display: block;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
 	font-weight: normal;
 	text-align: justify;
@@ -1883,11 +1883,10 @@ mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="encoder"]::befor
 }
 
 mei-filedesc > mei-pubstmt > mei-respstmt {
+  margin-top: 2em;
   display: block;
-  margin-top: 2em;
-  margin-top: 2em;
   color: black;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
 	font-weight: normal;
 	text-align: justify;
@@ -2030,13 +2029,14 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
 	margin-right: 20%;
 }
 
-mei-seriesstmt > mei-head {
+mei-seriesstmt > mei-head { /* */
   display: block;
   margin-top: 2em;
   color: black;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
 	font-weight: normal;
+  font-style: italic;
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
@@ -2047,7 +2047,7 @@ mei-seriesstmt > mei-title {
   display: block;
   margin-top: 2em;
   color: black;
-  font-size: 20pt;
+  font-size: 18pt;
 	font-family: "Verdana";
 	font-weight: normal;
 	text-align: justify;
@@ -2058,7 +2058,6 @@ mei-seriesstmt > mei-title {
 
 mei-seriesstmt > mei-respstmt {
   display: block;
-  margin-top: 2em;
   color: black;
   font-size: 20pt;
 	font-family: "Verdana";
@@ -2118,7 +2117,6 @@ mei-worklist > mei-work > mei-creation {
 }
 
 mei-worklist > mei-work > mei-notesstmt > mei-annot {
-  margin-top: 2em;
   display: block;
   color: black;
   font-size: 18pt;
