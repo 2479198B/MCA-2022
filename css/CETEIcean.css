@@ -1824,7 +1824,7 @@ mei-filedesc > mei-titlestmt > mei-title {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-titlestmt > mei-composer::before {
+mei-filedesc > mei-titlestmt > mei-composer {
   content: "Composer: ";
   margin-top: 2em;
   color: black;
