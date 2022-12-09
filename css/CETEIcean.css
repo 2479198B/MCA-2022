@@ -1934,8 +1934,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-extent > mei-extent {
-  display: block;
+mei-filedesc > mei-editionstmt > mei-edition > mei-extent > {
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1980,14 +1979,12 @@ mei-filedesc > mei-pubstmt > mei-date::after {
   margin-top: 2em;
   margin-top: 2em;
   color: black;
-  display: block;
+  display: inline;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
 	text-align: justify;
 	letter-spacing: 0px;
-	margin-left: 20%;
-	margin-right: 20%;
 }
 
 
