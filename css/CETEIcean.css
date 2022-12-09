@@ -1898,7 +1898,7 @@ mei-filedesc > mei-pubstmt > mei-respstmt {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-title {
-  display: block;
+  display: none;
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1924,7 +1924,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
-  display: block;
+  display: inline-block;
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1933,7 +1933,6 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
 	letter-spacing: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-  margin-top: 2em;
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-extent > mei-unit {
