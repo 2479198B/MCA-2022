@@ -1976,7 +1976,7 @@ mei-filedesc > mei-pubstmt > mei-date {
 	letter-spacing: 0px;
 }
 
-mei-filedesc > mei-pubstmt > mei-date::before {
+/*mei-filedesc > mei-pubstmt > mei-date::before {
   content: "Date encoded: ";
   margin-top: 2em;
   color: black;
@@ -1988,7 +1988,7 @@ mei-filedesc > mei-pubstmt > mei-date::before {
 	letter-spacing: 0px;
 	margin-left: 20%;
 	margin-right: 20%;
-}
+}*/
 
 mei-filedesc > mei-pubstmt > mei-date::after {
   content: '\a \a';
@@ -2008,7 +2008,7 @@ mei-filedesc > mei-pubstmt > mei-date::after {
 
 
 mei-filedesc > mei-pubstmt > mei-publisher {
-  content: "Publisher: ";
+  /*content: "Publisher: ";*/
   margin-top: 2em;
   color: black;
   display: block;
