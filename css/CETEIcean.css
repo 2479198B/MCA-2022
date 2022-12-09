@@ -1923,7 +1923,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
-  display: inline-block;
+  display: inline;
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1964,7 +1964,7 @@ mei-filedesc > mei-pubstmt > mei-date::before {
   content: "Date encoded: ";
   margin-top: 2em;
   color: black;
-  display: inline-block;
+  display: inline;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
