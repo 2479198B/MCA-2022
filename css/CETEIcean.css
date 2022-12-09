@@ -2082,7 +2082,7 @@ mei-worklist > mei-head > mei-bibl {
 	margin-right: 20%;
 }
 
-mei-worklist > mei-work > mei-title {
+mei-worklist > mei-work > mei-title { /*hw*/
   margin-top: 2em;
   display: block;
   color: black;
