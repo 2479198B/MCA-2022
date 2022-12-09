@@ -1922,7 +1922,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name::after {
+mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
   display: inline;
   font-style: normal;
   color: black;
@@ -2031,7 +2031,7 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
 	margin-right: 20%;
 }
 
-mei-seriesstmt > mei-head > nei-annot {
+mei-seriesstmt > mei-head {
   display: block;
   margin-top: 2em;
   color: black;
