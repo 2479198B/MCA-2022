@@ -1824,9 +1824,8 @@ mei-filedesc > mei-titlestmt > mei-title {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-titlestmt > mei-composer {
+mei-filedesc > mei-titlestmt > mei-composer[role="composer"]::before {
   content: "Composer: ";
-  white-space: pre;
   margin-top: 2em;
   color: black;
   display: block;
@@ -1993,7 +1992,7 @@ mei-filedesc > mei-pubstmt > mei-publisher {
   /*content: "Publisher: ";*/
   margin-top: 2em;
   color: black;
-  display: block;
+  display: none;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
@@ -2084,7 +2083,7 @@ mei-worklist > mei-head > mei-bibl {
 
 mei-worklist > mei-work > mei-title { /*hw*/
   margin-top: 2em;
-  display: inline-block;
+  display: none;
   color: black;
   font-size: 18pt;
 	font-family: "Verdana";
@@ -2096,7 +2095,7 @@ mei-worklist > mei-work > mei-title { /*hw*/
 
 mei-worklist > mei-work > mei-composer {
   margin-top: 2em;
-  display: block;
+  display: none;
   color: black;
   font-size: 18pt;
 	font-family: "Verdana";
