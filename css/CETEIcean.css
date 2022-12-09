@@ -1922,7 +1922,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name { /* this broke somehow */
+mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name { 
   display: inline-block;
   font-style: normal;
   color: black;
@@ -2064,6 +2064,42 @@ mei-seriesstmt > mei-respstmt {
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-filedesc > mei-worklist > mei-head > mei-bibl {
+  margin-top: 2em;
+  display: block;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-filedesc > mei-worklist > mei-work > mei-creation {
+  margin-top: 2em;
+  display: block;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-filedesc > mei-worklist > mei-work > mei-notesstmt > mei-annot {
+  margin-top: 2em;
+  display: block;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
 	text-align: justify;
 	letter-spacing: 0px;
 	margin-left: 20%;
