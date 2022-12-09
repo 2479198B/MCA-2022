@@ -2070,7 +2070,7 @@ mei-seriesstmt > mei-respstmt {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-worklist > mei-head > mei-bibl {
+mei-worklist > mei-head > mei-bibl {
   margin-top: 2em;
   display: block;
   color: black;
@@ -2082,7 +2082,7 @@ mei-filedesc > mei-worklist > mei-head > mei-bibl {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-worklist > mei-work > mei-creation {
+mei-worklist > mei-work > mei-creation {
   margin-top: 2em;
   display: block;
   color: black;
@@ -2094,7 +2094,7 @@ mei-filedesc > mei-worklist > mei-work > mei-creation {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-worklist > mei-work > mei-notesstmt > mei-annot {
+mei-worklist > mei-work > mei-notesstmt > mei-annot {
   margin-top: 2em;
   display: block;
   color: black;
