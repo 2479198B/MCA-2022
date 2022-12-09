@@ -1814,7 +1814,7 @@ mei-title[type="subordinate"] {
 
 mei-filedesc > mei-titlestmt > mei-title {
   color: black;
-  display: block;
+  display: inline-block;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
@@ -1828,7 +1828,7 @@ mei-filedesc > mei-titlestmt > mei-composer {
   /*content: "Composer: ";*/
   margin-top: 2em;
   color: black;
-  display: block;
+  display: inline-block;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
