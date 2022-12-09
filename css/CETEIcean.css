@@ -2031,7 +2031,33 @@ mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
 	margin-right: 20%;
 }
 
-mei-seriesstmt {
+mei-seriesstmt > mei-head > nei-annot {
+  display: block;
+  margin-top: 2em;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-seriesstmt > mei-title {
+  display: block;
+  margin-top: 2em;
+  color: black;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-seriesstmt > mei-respstmt {
   display: block;
   margin-top: 2em;
   color: black;
