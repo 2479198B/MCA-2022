@@ -1824,6 +1824,18 @@ mei-filedesc > mei-titlestmt > mei-title {
 	margin-right: 20%;
 }
 
+mei-filedesc > mei-titlestmt > mei-composer {
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 mei-filedesc > mei-titlestmt > mei-respstmt {
   font-weight: normal;
   content: "Encoded by: ";

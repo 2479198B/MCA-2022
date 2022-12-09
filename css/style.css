@@ -231,6 +231,14 @@ code {
 	display: block;
 }
 
+#dataset { /* img id */
+	width: auto;
+  	height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 /*.week8_table{
 	margin-left: auto;
 	margin-right: auto;
