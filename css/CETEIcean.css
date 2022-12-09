@@ -1825,7 +1825,7 @@ mei-filedesc > mei-titlestmt > mei-title {
 }
 
 mei-filedesc > mei-titlestmt > mei-composer {
-  content: "Composer: ";
+  /*content: "Composer: ";*/
   margin-top: 2em;
   color: black;
   display: block;
