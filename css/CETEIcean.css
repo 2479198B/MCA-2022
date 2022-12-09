@@ -1923,18 +1923,18 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
-  display: inline-block;
+  display: inline;
   font-style: normal;
   color: black;
   font-size: 18pt;
 	font-family: "Verdana";
 	text-align: justify;
 	letter-spacing: 0px;
-	/*margin-left: 20%;
-	margin-right: 20%;*/
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-extent > {  /* ????????????? why not working? */
+mei-filedesc > mei-editionstmt > mei-edition > mei-extent  {  /* ????????????? why not working? */
   font-style: normal;
   color: black;
   font-size: 18pt;
