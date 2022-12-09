@@ -1922,8 +1922,8 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
-  display: inline;
+mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name { /* this broke somehow */
+  display: inline-block;
   font-style: normal;
   color: black;
   font-size: 18pt;
