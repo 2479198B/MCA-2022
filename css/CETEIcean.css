@@ -2082,6 +2082,30 @@ mei-worklist > mei-head > mei-bibl {
 	margin-right: 20%;
 }
 
+mei-worklist > mei-work > mei-title {
+  margin-top: 2em;
+  display: block;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+mei-worklist > mei-work > mei-composer {
+  margin-top: 2em;
+  display: block;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
 mei-worklist > mei-work > mei-creation {
   margin-top: 2em;
   display: block;
