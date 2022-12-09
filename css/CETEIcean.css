@@ -1923,7 +1923,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 }
 
 mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
-  display: inline;
+  display: inline-block;
   font-style: normal;
   color: black;
   font-size: 18pt;
@@ -1934,7 +1934,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-extent > {
+mei-filedesc > mei-editionstmt > mei-edition > mei-extent > {  /* ????????????? why not working? */
   font-style: normal;
   color: black;
   font-size: 18pt;
