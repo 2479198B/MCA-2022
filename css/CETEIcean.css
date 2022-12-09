@@ -1968,7 +1968,7 @@ mei-pubstmt > mei-address {
 
 mei-filedesc > mei-pubstmt > mei-date {
   color: black;
-  display: block;
+  display: inline;
   font-size: 20pt;
 	font-family: "Verdana";
 	font-weight: normal;
@@ -2007,7 +2007,7 @@ mei-filedesc > mei-pubstmt > mei-date::after {
 }
 
 
-mei-filedesc > mei-pubstmt > mei-publiher {
+mei-filedesc > mei-pubstmt > mei-publisher {
   content: "Publisher: ";
   margin-top: 2em;
   color: black;
