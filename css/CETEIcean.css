@@ -1897,8 +1897,60 @@ mei-filedesc > mei-pubstmt > mei-respstmt {
 	margin-right: 20%;
 }
 
+mei-filedesc > mei-editionstmt > mei-edition > mei-title {
+  display: block;
+  font-style: normal;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+  margin-top: 2em;
+}
+
+mei-filedesc > mei-editionstmt > mei-edition > mei-resp {
+  display: block;
+  font-style: normal;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+  margin-top: 2em;
+}
+
+mei-filedesc > mei-editionstmt > mei-edition > mei-extent {
+  display: block;
+  font-style: normal;
+  color: black;
+  font-size: 18pt;
+	font-family: "Verdana";
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+  margin-top: 2em;
+}
+
 mei-pubstmt > mei-address {
   display: none;
+}
+
+mei-filedesc > mei-pubstmt > mei-date {
+  margin-top: 2em;
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 mei-filedesc > mei-pubstmt > mei-date::before {
@@ -1919,6 +1971,21 @@ mei-filedesc > mei-pubstmt > mei-date::after {
   content: '\a \a';
   white-space: pre;
   margin-top: 2em;
+  margin-top: 2em;
+  color: black;
+  display: block;
+  font-size: 20pt;
+	font-family: "Verdana";
+	font-weight: normal;
+	text-align: justify;
+	letter-spacing: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+mei-filedesc > mei-pubstmt > mei-publiher {
+  content: "Publisher: ";
   margin-top: 2em;
   color: black;
   display: block;
