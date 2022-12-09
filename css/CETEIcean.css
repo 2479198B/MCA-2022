@@ -2084,7 +2084,7 @@ mei-worklist > mei-head > mei-bibl {
 
 mei-worklist > mei-work > mei-title { /*hw*/
   margin-top: 2em;
-  display: inline;
+  display: inline-block;
   color: black;
   font-size: 18pt;
 	font-family: "Verdana";
@@ -2096,7 +2096,7 @@ mei-worklist > mei-work > mei-title { /*hw*/
 
 mei-worklist > mei-work > mei-composer {
   margin-top: 2em;
-  display: inline;
+  display: block;
   color: black;
   font-size: 18pt;
 	font-family: "Verdana";
