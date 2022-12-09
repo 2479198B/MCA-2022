@@ -1922,7 +1922,7 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-resp {
 	margin-right: 20%;
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
+mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name::after {
   display: inline;
   font-style: normal;
   color: black;
@@ -1930,11 +1930,11 @@ mei-filedesc > mei-editionstmt > mei-edition > mei-respstmt > mei-name {
 	font-family: "Verdana";
 	text-align: justify;
 	letter-spacing: 0px;
-	margin-left: 20%;
-	margin-right: 20%;
+	/*margin-left: 20%;
+	margin-right: 20%;*/
 }
 
-mei-filedesc > mei-editionstmt > mei-edition > mei-extent  {  /* ????????????? why not working? */
+mei-filedesc > mei-editionstmt > mei-edition > mei-extent  {  /* ????????????? why you not working? */
   font-style: normal;
   color: black;
   font-size: 18pt;
